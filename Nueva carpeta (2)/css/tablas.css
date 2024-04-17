@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: burlywood;
+
+}
+
+.container{
+    position: relative;
+    max-width: 900px;
+    width: 100%;
+    background-color: #fff;
+    padding: 30px;
+    margin: 0 15px;
+    box-shadow: 0 5px 10px 
+}
+
+.container header{
+    font-size: 20px;
+    font-weight: 600;
+    color: grey;
+
+}
+
+.container form{
+    position: relative;
+    min-height: 400px;
+    
+}
+
+.container form .campo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form .campo .campo-boton{
+    display: flex;
+    width: 5px;
+    height: 5px;
+    flex-direction: column;
+}
+
+.campo-boton input{
+    height: 30px;
+}
